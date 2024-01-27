@@ -1,0 +1,3 @@
+[submodule "ics-pa"]
+	path = ics-pa
+	url = https://github.com/NJU-ProjectN/ics-pa
