@@ -16,13 +16,13 @@
   + 物理层
   
 
-![](/home/mite/Desktop/ComputerLearning/Picture/2024-01-24_20-26.png)
+![](/home/morning/Desktop/ComputerLearning/Picture/2024-01-24_20-26.png)
 
 + sw (交换机)
    + 记录地址 --> mac 地址 （交换机上对应的物理的端口）「一般是6个“-3C-”这样的8bit的的编码构成的」「通常出厂全球唯一标识，但是可以修改的」mac地址和交换机上的端口是一一对应的，会通过一次次的发送信息建立起一张表 （当找不到对应的端口时广播，然后加入表中，后面就只需要查表了）
    
    + 发送的信息（数据包）
-     ![](/home/mite/Desktop/ComputerLearning/Picture/2024-01-24_20-50.png)
+     ![](/home/morning/Desktop/ComputerLearning/Picture/2024-01-24_20-50.png)
    
    + 使用的是8根的网线，是全双工的（同一个节点可以同时进行上传和下载数据）
    
@@ -30,7 +30,7 @@
    
    + 通常使用了桥接技术，进行交换机的拓展
    
-     ![](/home/mite/Desktop/ComputerLearning/Picture/2024-01-24_20-52.png)
+     ![](/home/morning/Desktop/ComputerLearning/Picture/2024-01-24_20-52.png)
 
 **在局域网设计中，sw 完美的覆盖了hub**
 
@@ -44,7 +44,7 @@
 
 + 路由器 （网关）「跨在两个局域网之间的设备」
 
-  ![](/home/mite/Desktop/ComputerLearning/Picture/2024-01-24_21-50.png)
+  ![](/home/morning/Desktop/ComputerLearning/Picture/2024-01-24_21-50.png)
 
   + 路由器本身也可以看成是一个节点，通常安装linux系统
 
